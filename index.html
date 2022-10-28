@@ -516,6 +516,64 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <b class="form-title">Залишайте свої дані, ми вам передзвонемо</b>
+        <form action="#" name="contact-form">
+          <label class="form-label" for="person-name"
+            ><span class="form-contact-text">Імʼя</span></label
+          >
+          <div class="form-control">
+            <input class="person-contact" id="person-name" name="" type="tel" />
+            <svg class="form-icon icon" width="18px" height="18px">
+              <use class="icon" href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+          <label class="form-label" for="person-phone"
+            ><span class="form-contact-text">Телефон</span>
+          </label>
+          <div class="form-control">
+            <input
+              class="person-contact"
+              id="person-phone"
+              name=""
+              type="text"
+            /><svg class="form-icon icon" width="18px" height="18px">
+              <use class="icon" href="./images/icons.svg#icon-phone2"></use>
+            </svg>
+          </div>
+          <label class="form-label" for="person-mail"
+            ><span class="form-contact-text">Пошта</span>
+          </label>
+          <div class="form-control">
+            <input
+              class="person-contact"
+              id="person-mail"
+              name=""
+              type="email"
+            /><svg class="form-icon icon" width="18px" height="18px">
+              <use class="icon" href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+          <label class="form-label" for="person-comment"
+            ><span class="form-contact-text">Коментар</span>
+          </label>
+          <textarea
+            class="person-comment"
+            name="feedback"
+            id="person-comment"
+            rows="5"
+            placeholder="Введіть текст"
+          ></textarea>
+          <div class="form-checkbox"><input
+            type="checkbox"
+            class="form-agree"
+            id="agreement"
+            name="agreement"
+          />
+          <label for="agreement" class="form-text-agreement"
+            >Погоджуюся з розсилкою та приймаю <a class="link form-link" href="#">Умови договору</a> </label
+          ></div>
+          <button type="button" class="btn form-btn">Відправити</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
