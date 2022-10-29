@@ -226,6 +226,7 @@ ul {
 }
 .adress-list:not(:last-child) {
   margin-bottom: 9px;
+  
 }
 .footer-text {
   font-size: 14px;
@@ -283,6 +284,8 @@ ul {
 }
 .footer-list-logo {
   margin-right: 70px;
+  
+  width: 231px;
 }
 .footer-social{
 
@@ -290,7 +293,8 @@ ul {
  
 }
 .description-form{
-  min-width: 575px;
+  min-width: 570px;
+  display: flex;
 }
 .footer-email{
 width: 358px;
@@ -733,7 +737,12 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid var(--form-border);
   border-radius: 4px;
   outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.person-comment:focus{
+  border-color: var(--accent-text);
+  outline: none;
+} 
 .form-contact-text {
   font-weight: 400;
   font-size: 12px;
